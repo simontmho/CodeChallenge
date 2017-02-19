@@ -1,0 +1,60 @@
+Enclosed is the output generated from my program. It is same as the provided input.
+
+Welcome to use Drawing Program...
+enter command: C 20 4
+Command received...C 20 4
+Create command
+Feb 18, 2017 8:42:45 PM org.simon.drawing.object.Canvas create
+INFO: Canvas created
+----------------------
+|                    |
+|                    |
+|                    |
+|                    |
+----------------------
+enter command: L 1 2 6 2
+Command received...L 1 2 6 2
+Line command
+----------------------
+|                    |
+|xxxxxx              |
+|                    |
+|                    |
+----------------------
+enter command: L 6 3 6 4
+Command received...L 6 3 6 4
+Line command
+----------------------
+|                    |
+|xxxxxx              |
+|     x              |
+|     x              |
+----------------------
+enter command: R 14 1 18 3
+Command received...R 14 1 18 3
+Recentangle command
+----------------------
+|             xxxxx  |
+|xxxxxx       x   x  |
+|     x       xxxxx  |
+|     x              |
+----------------------
+enter command: B 10 3 o
+Command received...B 10 3 o
+Bucket fill command
+----------------------
+|oooooooooooooxxxxxoo|
+|xxxxxxooooooox   xoo|
+|     xoooooooxxxxxoo|
+|     xoooooooooooooo|
+----------------------
+enter command: Q
+Command received...Q
+Quite command
+----------------------
+|oooooooooooooxxxxxoo|
+|xxxxxxooooooox   xoo|
+|     xoooooooxxxxxoo|
+|     xoooooooooooooo|
+----------------------
+Thanks for using drawing
